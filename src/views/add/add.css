@@ -1,0 +1,79 @@
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.iput{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.title-input{
+    width: 40%;
+    
+}
+input[type=text]:focus{
+    outline: none;
+    background-image: radial-gradient( circle farthest-corner at 3.2% 49.6%,  rgba(80, 12, 139, 0.497) 0%, rgba(161, 10, 143, 0.399) 83.6% );
+    color: aliceblue;
+}
+.emoji{
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 7rem;
+    
+    border: 2px solid radial-gradient( circle farthest-corner at 3.2% 49.6%,  rgba(80, 12, 139, 0.497) 0%, rgba(161, 10, 143, 0.399) 83.6% );;
+}
+.emoji-btn{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color:  rgba(193, 2, 193, 0.904);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.emoji-picker{
+    position: fixed !important;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.emoji-box{
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 10px;
+    /* gap: 1rem; */
+    background-color: aliceblue;
+    width: 400px;
+    border: 1px solid lightskyblue;
+    border-radius: 20px;
+    display: block  ;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.addbtn{
+    margin: 10px auto;
+    display: block;
+}
+@media screen and (max-width:650px) {
+    .iput{
+        width: 80%;
+    }
+    .emoji-box{
+        width: 80%;
+    }
+    .emoji-picker{
+        width: 90% !important;
+        height: 50vh !important;
+        
+    }
+}

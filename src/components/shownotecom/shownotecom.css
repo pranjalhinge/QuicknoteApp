@@ -1,0 +1,57 @@
+.show-card{
+    display: flex;
+    align-items: center;
+   margin: 20px auto;
+   background-color: aliceblue;
+   border-radius: 2rem;
+   position: relative;
+   padding: 2rem;
+   text-transform: capitalize;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+.emoji-container{
+    font-size: 4.5rem;
+    width: 30%;
+    text-align: center;
+}
+.card-category{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+.bg-learning{
+    background-color: rgb(193, 2, 193);
+}   
+.bg-work{
+    background-color: rgb(2, 193, 193);
+}
+.bg-personal{
+    background-color: rgba(196, 38, 3, 0.425);
+}
+.bg-others{
+    background-color: rgb(36, 73, 238);
+}
+.card-descri{
+    width:10rem;
+}
+.delete-icon{
+    position: absolute;
+    bottom: -15px;
+    right: 25px;
+    font-size: 3rem;
+}
+@media screen and (max-width: 700px ) {
+    .emoji-container{
+        font-size: 3rem;
+        width: 25%;
+    }
+    .card-title{
+        font-size: 1rem;
+    }   
+}
