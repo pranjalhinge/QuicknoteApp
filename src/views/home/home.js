@@ -7,7 +7,7 @@ import day from './day.avif'
 import Featurecard from './../../components/featureCard/feature'
 import { Link } from 'react-router-dom'
 import Hovercard from './../../components/Hovercard/Hovercard'
-import Img1 from './../../components/Hovercard/HoverImg/note baground.jpg'
+import notebaground from './../../components/Hovercard/HoverImg/note baground.jpg'
 import Img2 from './../../components/Hovercard/HoverImg/img add.jpg'
 import Img3 from './../../components/Hovercard/HoverImg/note show.avif'
 function home() {
