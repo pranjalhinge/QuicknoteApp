@@ -52,7 +52,7 @@ input[type=text]:focus{
     /* gap: 1rem; */
     background-color: aliceblue;
     width: 400px;
-    border: 1px solid lightskyblue;
+    border: 1px solid rgb(119, 199, 248);
     border-radius: 20px;
     display: block  ;
     margin: 20px auto;
